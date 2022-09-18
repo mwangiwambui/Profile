@@ -1,0 +1,12 @@
+.grid-container{
+    display: grid;
+    grid-template-areas: 
+    'Header Header Header Header Header Header'
+    'LandingImage LandingImage LandingImage AboutMe AboutMe AboutMe'
+    'Projects Projects Projects Projects Projects Projects'
+    'Footer Footer Footer Footer Footer Footer'
+
+    ;
+    gap: 10px;
+    
+}
