@@ -5,8 +5,27 @@
     'LandingImage LandingImage LandingImage AboutMe AboutMe AboutMe'
     'Projects Projects Projects Projects Projects Projects'
     'Footer Footer Footer Footer Footer Footer'
-
     ;
     gap: 10px;
     
+}
+
+.header{
+    grid-area: Header;
+}
+
+.landingImage{
+    grid-area: LandingImage
+}
+
+.aboutMe{
+    grid-area: AboutMe;
+}
+
+.projects{
+    grid-area: Projects;
+}
+
+.footer{
+    grid-area: Footer;
 }
