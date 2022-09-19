@@ -1,31 +1,50 @@
-.grid-container{
-    display: grid;
-    grid-template-areas: 
-    'Header Header Header Header Header Header'
-    'LandingImage LandingImage LandingImage AboutMe AboutMe AboutMe'
-    'Projects Projects Projects Projects Projects Projects'
-    'Footer Footer Footer Footer Footer Footer'
-    ;
+.flex-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     gap: 10px;
     
 }
 
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    gap: 10px;
+}
+
 .header{
-    grid-area: Header;
+    text-align: center;
+    height: 150px;
 }
 
-.landingImage{
-    grid-area: LandingImage
-}
-
-.aboutMe{
-    grid-area: AboutMe;
-}
-
-.projects{
-    grid-area: Projects;
+.card{
+    background-color: lightgrey;
+    margin-bottom: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding: 15px;
 }
 
 .footer{
-    grid-area: Footer;
+    text-align: center;
+}
+
+body{
+    background-color: darkcyan;
+
+}
+
+h1{
+    color: lightgray;
+    text-decoration-thickness: 5px;
+}
+
+.h1-text-emphasis{
+    letter-spacing: -1px;
+    font-weight: 500;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
 }
