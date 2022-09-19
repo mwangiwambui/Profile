@@ -2,6 +2,7 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
+    align-items: center;
     gap: 10px;
     
 }
@@ -10,7 +11,7 @@
     display: flex;
     flex-direction: row;
     margin: 20px;
-    gap: 10px;
+    gap: 25px;
 }
 
 .header{
@@ -21,8 +22,7 @@
 .card{
     background-color: lightgrey;
     margin-bottom: 20px;
-    margin-left: 60px;
-    margin-right: 60px;
+    width: 800px;
     padding: 15px;
 }
 
@@ -32,19 +32,35 @@
 
 body{
     background-color: darkcyan;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
 
 h1{
     color: lightgray;
     text-decoration-thickness: 5px;
+    font-size: 3em;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .h1-text-emphasis{
-    letter-spacing: -1px;
+    letter-spacing: -3px;
     font-weight: 500;
+    color: black;
 }
 p{
     font-family: Arial, Helvetica, sans-serif;
     font-size: medium;
+}
+
+li{
+    font-size: small;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.image-style{
+    width: 300px;
 }
