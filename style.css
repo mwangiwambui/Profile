@@ -89,10 +89,10 @@ li {
 }
 
 .project-box {
-    width: 15%;
+    max-width: 150px;
     border: 2px solid darkcyan;
     padding: 50px;
-    margin: 20px;
+    margin: 5px;
     word-wrap: break-word;
 }
 
