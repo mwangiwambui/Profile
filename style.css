@@ -84,7 +84,7 @@ li {
 }
 
 .image-style {
-    width: 300px;
+    max-width: 300px;
     float: right;
 }
 
