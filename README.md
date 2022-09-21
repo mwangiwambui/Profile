@@ -6,8 +6,8 @@ To set up the project, just clone it to your machine or feel free to fork.
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-# Author
+## Author
 This project has been developed by Wambui Mwangi
 
-# License
+## License
 [MIT](https://choosealicense.com/licenses/mit/)
