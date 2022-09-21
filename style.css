@@ -85,6 +85,7 @@ li {
 
 .image-style {
     max-width: 300px;
+    max-height: 600px;
     float: right;
 }
 
